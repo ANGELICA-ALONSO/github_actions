@@ -8,7 +8,7 @@ jobs:
 
     strategy:
       matrix:
-      messages: ["Hola", "CodigoFacilito", "Bootcamp GitHub Actions"]
+        messages: ["Hola", "CodigoFacilito", "Bootcamp GitHub Actions"]
 
     steps:
       - name: Print messages
