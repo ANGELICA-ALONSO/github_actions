@@ -8,8 +8,8 @@ jobs:
 
     strategy:
       matrix:
-        messages: ["Hola", "CodigoFacilito", "Bootcamp GitHub Actions"]
+        message: ["Hola", "CodigoFacilito", "Bootcamp GitHub Actions"]
 
     steps:
       - name: Print mensaje
-        run: echo "${{ matrix.mensaje }}"
+        run: echo "${{ matrix.message }}"
